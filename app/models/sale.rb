@@ -1,3 +1,3 @@
 class Sale < ApplicationRecord
-  #Comentario prueba dockerhub
+  #Comentario prueba dockerhub 2
 end
