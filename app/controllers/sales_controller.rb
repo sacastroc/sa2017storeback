@@ -46,6 +46,6 @@ class SalesController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def sale_params
-      params.require(:sale).permit(:user, :product)
+      params.permit(:user, :product)
     end
 end
